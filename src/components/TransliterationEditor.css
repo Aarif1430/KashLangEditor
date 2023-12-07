@@ -1,0 +1,10 @@
+.textarea {
+  width: 70%;
+  height: 200px;
+  direction: rtl;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
