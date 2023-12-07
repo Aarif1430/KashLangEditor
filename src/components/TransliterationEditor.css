@@ -8,3 +8,31 @@
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px; /* Adjust this value as needed */
+}
+
+.logo {
+  width: 30px; /* Adjust this value as needed */
+  height: auto;
+}
+.footer p {
+  margin-right: 20px; /* Adjust this value as needed */
+}

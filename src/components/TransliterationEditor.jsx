@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './TransliterationEditor.css'; // Import your custom styles if needed
+// import logo.png from images
+ import logo from '../images/logo.png'; // Import your logo image if needed
 
 const TransliterationEditor = () => {
   const [inputText, setInputText] = useState('');
@@ -63,7 +65,7 @@ const TransliterationEditor = () => {
 
   return (
     <div>
-      <header>
+      <header className="header">
         <h1>English Roman to Kashmiri Transliteration</h1>
       </header>
       <main>
@@ -81,8 +83,14 @@ const TransliterationEditor = () => {
           readOnly // Make this textarea read-only as it's only for display
         />
       </main>
-      <footer>
-        <p>Your footer content goes here...</p>
+      <footer className="footer">
+        <div>
+          <img src={logo} alt="AI4Bharat logo" className="logo" />
+          <p>Made with <span className="heart">❤</span></p>
+        </div>
+        <p>
+        Courtesy to AI4Bharat
+      </p>
       </footer>
     </div>
   );
