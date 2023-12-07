@@ -1,12 +1,12 @@
 .textarea {
   width: 70%;
-  height: 200px;
+  height: 120px;
   direction: rtl;
   font-family: Arial, sans-serif;
   font-size: 16px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid green;
 }
 .footer {
   margin-top: 20px; /* Adjust this value as needed */
@@ -15,7 +15,7 @@
   align-items: center;
   background-color: black;
   color: white;
-  padding: 10px;
+  padding: 2px 10px;
   position: fixed;
   left: 0;
   bottom: 0;

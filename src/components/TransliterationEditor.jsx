@@ -6,17 +6,23 @@ import './TransliterationEditor.css'; // Import your custom styles if needed
 const TransliterationEditor = () => {
   const [inputText, setInputText] = useState('');
   const [outputText, setOutputText] = useState('');
+  const [lastWord, setLastWord] = useState('');
 
   const handleInputChange = (e) => {
     const text = e.target.value;
     setInputText(text);
     if (text === '') {
       setOutputText('');
+      setLastWord('');
     } else if  (text.endsWith(' ')) {
       const inputText = text.trim().split(' ');
       const index = inputText.length - 1;
-      callTransliterationAPI(inputText[index]);
-    }
+      const word = inputText[index];
+      if (word !== lastWord) {
+        callTransliterationAPI(word);
+        setLastWord(word);
+      }
+  }
   };
 
   const callTransliterationAPI = async (englishWord) => {
@@ -84,8 +90,10 @@ const TransliterationEditor = () => {
       </main>
       <footer className="footer">
         <div>
-          <img src={logo} alt="AI4Bharat logo" className="logo" />
-          <p>Made with <span className="heart">❤</span></p>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <img src={logo} alt="AI4Bharat logo" className="logo" />
+            <p style={{ marginLeft: '10px' }}>Made with <span className="heart">❤</span></p>
+          </div>
         </div>
         <p>
         Courtesy to AI4Bharat
