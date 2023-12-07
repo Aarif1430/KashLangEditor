@@ -20,7 +20,6 @@ const TransliterationEditor = () => {
   };
 
   const callTransliterationAPI = async (englishWord) => {
-    // Replace this with your actual API endpoint and handling logic
     try {
       const response = await fetch('https://api.dhruva.ai4bharat.org/services/inference/transliteration', {
         method: 'POST',

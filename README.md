@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Roman-Kashmiri Transliteration Web UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React web user interface (UI) facilitates the transliteration of English Roman text into Kashmiri Arabic script. The primary goal of this project is to develop a tool for English to Kashmiri transliteration and vice versa. The web UI serves as a convenient interface for testing and fine-tuning our transliteration model.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **English to Kashmiri Transliteration:** Convert Roman English text into Kashmiri Arabic script.
+- **Vice Versa:** Explore the transliteration in both directions, supporting bidirectional conversion.
+- **AI4Bharat Transliteration Model:** Powered by the AI4Bharat transliteration model, ensuring accurate and reliable results.
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Input your Roman English text into the provided text area.
+2. Click the "Transliterate" button to convert the text into Kashmiri Arabic script.
+3. Explore bidirectional transliteration for a comprehensive testing experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## UI Screenshot
+![UI Screenshot](public/ui.png)
 
-### `npm test`
+## Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React: [Link to React](https://reactjs.org/)
+- AI4Bharat Transliteration Model: [Link to AI4Bharat](https://github.com/AI4Bharat/indicTrans)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository: `git clone https://github.com/your/repo.git`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribution
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We welcome contributions and bug reporting. Feel free to open issues or submit pull requests.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the [MIT License](LICENSE).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note:** Ensure you have the necessary permissions to use and modify the AI4Bharat transliteration model as per its license terms.
