@@ -9,6 +9,7 @@
   border: 1px solid #ccc;
 }
 .footer {
+  margin-top: 20px; /* Adjust this value as needed */
   display: flex;
   justify-content: space-between;
   align-items: center;
